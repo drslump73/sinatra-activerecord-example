@@ -12,5 +12,6 @@ $ mkdir -p log
 $ mkdir -p tmp/pids
 $ mkdir -p tmp/sockets
 $ bundle install
+$ bundle exec rake db:migrate
 $ bundle exec rackup -p 4567
 ```
