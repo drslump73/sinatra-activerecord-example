@@ -8,6 +8,9 @@
 ## Run server
 
 ```bash
+$ mkdir -p log
+$ mkdir -p tmp/pids
+$ mkdir -p tmp/sockets
 $ bundle install
 $ bundle exec rackup -p 4567
 ```
